@@ -7,9 +7,8 @@
 
 ## 🎥 Demonstração do Sistema
 <p align="center">
-  <img src="assets\demo.gif" width="800">
+  <img src="assets\DEMO.gif" width="800">
 </p>
-
 
 
 
@@ -47,11 +46,13 @@ O sistema realiza a autenticação no endpoint da API, consome os dados disponib
  - Requests – integração com APIs externas
 
 
-# 
+
+
+# Arquitetura do Projeto
 
 ´´´
-
 restaurantesapi/
+
 │
 ├── main.py                 # Navegação principal entre páginas
 ├── utilitarios.py          # Funções utilitárias (API, datas, validações)
@@ -69,6 +70,4 @@ restaurantesapi/
     ├── logo_branco.png     # Logo para tema escuro
     ├── logo_preto.png      # Logo para tema claro
     └── demo.gif            # GIF demonstrativo
-
-
 ´´´
