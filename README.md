@@ -1,13 +1,13 @@
 # relatorioCustomizadoRefeitorios
 
-1º É necessario que o usuario possua login na plataforma IDSECURE
-2º Na plataforma do IDSECURE é de extrema importancia, ter bem definido os Grupos.
-3º O usuario defini a data inicial e final para que os relatórios sejam criados e após clicar em GERAR RELATÓRIO, tudo é executado autoMÁGICAMENTE.. 
+ - 1º É necessario que o usuario possua login na plataforma IDSECURE
+ - 2º Na plataforma do IDSECURE é de extrema importancia, ter bem definido os Grupos.
+ - 3º O usuario defini a data inicial e final para que os relatórios sejam criados e após clicar em GERAR RELATÓRIO, tudo é executado autoMÁGICAMENTE.. 
 
 
 ## 🎥 Demonstração do Sistema
 <p align="center">
-  <img src="assets/demo.gif" width="800">
+  <img src="assets\demo.gif" width="800">
 </p>
 
 
@@ -44,20 +44,22 @@ O sistema realiza a autenticação no endpoint da API, consome os dados disponib
 
  - Requests – integração com APIs externas
 
+´´´
 restaurantesapi/
 │
-├── main.py                 # Navegação principal entre páginas
-├── utilitarios.py          # Funções utilitárias (API, datas, validações)
-├── requirements.txt        # Dependências do projeto
-├── README.md               # Documentação
+├── main.py                 
+├── utilitarios.py          
+├── requirements.txt        
+├── README.md               
 │
 ├── pages/
-│   ├── login.py            # Página de autenticação
-│   ├── home.py             # Página inicial com relatório bruto
-│   ├── dashboard.py        # Dashboard com análises e gráficos
-│   └── relatorios.py       # Relatórios tabulares para cobrança
+│   ├── login.py            
+│   ├── home.py             
+│   ├── dashboard.py        
+│   └── relatorios.py       
 │
 └── assets/
-    ├── logo_branco.png     # Logo para tema escuro
-    ├── logo_preto.png      # Logo para tema claro
-    └── demo.gif            # GIF demonstrativo
+    ├── logo_branco.png     
+    ├── logo_preto.png      
+    └── demo.gif  
+´´´
