@@ -7,7 +7,7 @@
 
 ## 🎥 Demonstração do Sistema
 <p align="center">
-  <img src="assets\demo.gif" width="800">
+  <img src="assets\DEMO.gif" width="800">
 </p>
 
 
