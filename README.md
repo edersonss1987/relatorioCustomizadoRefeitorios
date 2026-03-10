@@ -12,6 +12,8 @@
 
 
 
+
+
 # Motivação:
 
 Este sistema foi desenvolvido para resolver desafios reais de gestão de restaurantes e refeitórios com o objetivo gerar insights, provenientes de um sistemas de controle de entrada e saída de pessoas de catraca, a aplicação centraliza dados operacionais e os transforma em informações úteis para análise e tomada de decisão.
@@ -44,22 +46,29 @@ O sistema realiza a autenticação no endpoint da API, consome os dados disponib
 
  - Requests – integração com APIs externas
 
+
+# 
+
 ´´´
+
 restaurantesapi/
 │
-├── main.py                 
-├── utilitarios.py          
-├── requirements.txt        
-├── README.md               
+├── main.py                 # Navegação principal entre páginas
+├── utilitarios.py          # Funções utilitárias (API, datas, validações)
+├── requirements.txt        # Dependências do projeto
+├── README.md               # Documentação
 │
 ├── pages/
-│   ├── login.py            
-│   ├── home.py             
-│   ├── dashboard.py        
-│   └── relatorios.py       
+│   ├── login.py            # Página de autenticação
+│   ├── home.py             # Página inicial com relatório bruto
+│   ├── dashboard.py        # Dashboard com análises e gráficos
+│   └── relatorios.py       # Relatórios tabulares para cobrança
 │
 └── assets/
-    ├── logo_branco.png     
-    ├── logo_preto.png      
-    └── demo.gif  
+    ├── logo_nutrs.png      # Logo padrão
+    ├── logo_branco.png     # Logo para tema escuro
+    ├── logo_preto.png      # Logo para tema claro
+    └── demo.gif            # GIF demonstrativo
+
+
 ´´´
